@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_pdf_tool/packages/file_picker_util.dart';
 import 'package:pdfx/pdfx.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class PDFXPage extends StatefulWidget {
+  const PDFXPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<PDFXPage> createState() => _PDFXPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PDFXPageState extends State<PDFXPage> {
   PdfControllerPinch? _pdfControllerPinch;
 
   Future<void> _onClickPickPDF() async {
